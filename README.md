@@ -265,13 +265,31 @@ Do not describe private methods and attributes.
     my_analyzer.combo()
  
 - Attributes:
- combo_df - the dataframe that stores the different combinations of aces rolled
+ combo_df - the dataframe that stores the different combinations of faces rolled
  
  - combo.__doc__
       Computes the distinct combinations of faces rolled, along with their counts and puts in a
       dataframe.
       
  - Returns: NA
+
+
+#### jackpot() method:
+
+- Parameters: NA
+
+    my_analyzer.jackpot()
+ 
+- Attributes:
+ final_jp_df - the dataframe that stores the rolls that have jackpots
+ 
+ - jackpot.__doc__
+      Method to compute how many times the game resulted in all faces being identical.
+      Returns an integer for the number times to the user.
+      Stores the results as a dataframe of jackpot results in a public attribute.
+     
+ - Returns:
+  count: integar of the amount of times a jackpot was rolled in a game
 
 
 
