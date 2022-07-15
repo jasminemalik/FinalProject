@@ -200,22 +200,26 @@ Do not describe private methods and attributes.
   
 - Returns: NA
 
-#### play() method:
+#### show() method:
 
 - Parameters:
- rolls: int of number of times to roll all of the die
+ form: specify the format of which you want the dataframe of the rolls results to be shown in, default position to "wide", and the other option is 'narrow'
     
-    my_game.play(5)
+    my_game.show()
+    my_game.show(form = 'narrow')
 
 - Attributes: NA
+ 
     
-- play.__doc__
+- show.__doc__
     
-    The play method takes one parameter, the number of rolls each die should be rolled.
-    Saves the result ot a private dataframe.
+   A method to show the user the results of the most recent play.
+   Has one parameter, set to wide that is a dataframe with rows x die.
+   The other valid form is narrow, which is the dataframe, stacked.
     
   
-- Returns: NA
+- Returns: 
+ dataframe: dataframe that shows the results of the play method above; the faces that were rolled for each die in each roll. Either in narrow or wide format.
 
 
 
