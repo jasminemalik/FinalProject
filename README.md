@@ -95,7 +95,7 @@ Do not describe private methods and attributes.
  weights - list of weights on the die, default values are 1 for each faces
     
   
-- die_object.__doc__
+- .__doc__
     
     Initializes a die object. Takes in a list of faces as either numbers or strings.
     Returns None and just initializes an object. 
@@ -105,6 +105,24 @@ Do not describe private methods and attributes.
     
   
 - Returns: NA
+    
+#### change_weight() method:
+
+- Parameters:
+ die_face: the face of the die for the weight to be changed, needs to be in die_object.faces, either a int or char
+ new_weight: the new weight for the face, type int or float
+    
+    die_object.change_weight(1, 5)
+
+- Attributes: NA
+
+- change_weight.__doc__
+    
+   This method changes a weight of one face of a die.
+   It has two params, the face to change, and the new weight.
+   It will return the new dataframe with the updated weight.
+    
   
+- Returns: NA
   
 
