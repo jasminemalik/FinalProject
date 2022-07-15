@@ -80,15 +80,31 @@ All paramters (with data types and defaults) should be described.
 All return values should be described.
 Do not describe private methods and attributes.
   
-#### Die Init() method 
+#### Die Class
+    
+init() method:
+
+Parameters:
+- list: list of faces for the die, of either integers or characters 
     
     face_list = [1,2,3,4,5,6]
     die_object = Die(face_list)
+
+Attributes:
+faces - list of faces on the die
+weights - list of weights on the die, default values are 1 for each faces
+    
   
+die_object.__doc__
+    """
+    Initializes a die object. Takes in a list of faces as either numbers or strings.
+    Returns None and just initializes an object. 
+    Has faces, a list of the die faces as an attribute
+    Has weights that are set to 1 for each face, list
+    creates a dataframe with faces and weights
+    """
   
-  
-  
-  
+Returns: NA
   
   
 
