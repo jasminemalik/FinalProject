@@ -291,6 +291,10 @@ Do not describe private methods and attributes.
  - Returns:
   count: integar of the amount of times a jackpot was rolled in a game
 
+## Manifesto
+
+README.md
+LISCENSE
 
 
 
