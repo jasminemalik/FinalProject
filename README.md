@@ -221,6 +221,58 @@ Do not describe private methods and attributes.
 - Returns: 
  dataframe: dataframe that shows the results of the play method above; the faces that were rolled for each die in each roll. Either in narrow or wide format.
 
+### Analyzer Class
+    
+#### init() method:
+
+- Parameters:
+ game: game object
+    
+    my_analyzer = Analyzer(my_game)
+
+- Attributes:
+ game - the game object that was inputted in the parameter
+ 
+  
+- init.__doc__
+   Creates an analyzer object, that has a game object as a parameter. 
+  
+- Returns: NA
+
+#### face_counts() method:
+
+- Parameters: NA
+    
+    my_analyzer.face_counts()
+
+- Attributes:
+ ansdf - the dataframe that stores the counts of the faces that were rolled
+ 
+  
+- face_counts.__doc__
+      Compute how many times a given face is rolled in each event.
+      Stores the results as a dataframe in a public attribute.
+      The dataframe has an index of the roll number and face values
+      as columns (i.e. it is in wide format).
+  
+- Returns: NA
+
+
+#### combo() method:
+
+- Parameters: NA
+
+    my_analyzer.combo()
+ 
+- Attributes:
+ combo_df - the dataframe that stores the different combinations of aces rolled
+ 
+ - combo.__doc__
+      Computes the distinct combinations of faces rolled, along with their counts and puts in a
+      dataframe.
+      
+ - Returns: NA
+
 
 
 
