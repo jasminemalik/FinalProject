@@ -121,8 +121,102 @@ Do not describe private methods and attributes.
    This method changes a weight of one face of a die.
    It has two params, the face to change, and the new weight.
    It will return the new dataframe with the updated weight.
+   Checks to make sure a valid weight is entered
     
   
 - Returns: NA
+
+#### show_die() method:
+
+- Parameters: NA
+
+- Attributes: NA
+
+- show_die.__doc__
+    
+    Shows the current die, faces with current weights. Takes no parameters and returns the dataframe.
+
+- Returns: 
+ dataframe: current dataframe of faces and weights
   
+
+
+#### roll_die() method:
+
+- Parameters: 
+ n: number of times to roll the die, type:int
+
+- Attributes: NA
+
+- roll_die.__doc__
+    
+    This method takes a random face from the die object, according to the weights to each face.
+    It has one parameter, number of rolls and will return a list of the rolls. 
+
+- Returns: 
+ list: list of the faces that were rolled from die
+ 
+
+### Game Class
+    
+#### init() method:
+
+- Parameters:
+ list: list of faces for the die, of either integers or characters 
+    
+    face_list = [1,2,3,4,5,6]
+    die_object = Die(face_list)
+
+- Attributes:
+ faces - list of faces on the die
+ weights - list of weights on the die, default values are 1 for each faces
+    
+  
+- .__doc__
+    
+    Initializes a die object. Takes in a list of faces as either numbers or strings.
+    Returns None and just initializes an object. 
+    Has faces, a list of the die faces as an attribute
+    Has weights that are set to 1 for each face, list
+    creates a dataframe with faces and weights
+    
+  
+- Returns: NA
+
+#### play() method:
+
+- Parameters:
+ rolls: int of number of times to roll all of the die
+    
+    my_game.play(5)
+
+- Attributes: NA
+    
+- play.__doc__
+    
+    The play method takes one parameter, the number of rolls each die should be rolled.
+    Saves the result ot a private dataframe.
+    
+  
+- Returns: NA
+
+#### play() method:
+
+- Parameters:
+ rolls: int of number of times to roll all of the die
+    
+    my_game.play(5)
+
+- Attributes: NA
+    
+- play.__doc__
+    
+    The play method takes one parameter, the number of rolls each die should be rolled.
+    Saves the result ot a private dataframe.
+    
+  
+- Returns: NA
+
+
+
 
