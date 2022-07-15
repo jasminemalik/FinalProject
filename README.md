@@ -72,10 +72,18 @@
       my_analyzer.combo()
       
   
+ ## API Description
+ 
+A list of all classes with their public methods and attributes.
+Each item should show their docstrings.
+All paramters (with data types and defaults) should be described.
+All return values should be described.
+Do not describe private methods and attributes.
   
-  
-  
-  
+#### Die Init() method 
+    
+    face_list = [1,2,3,4,5,6]
+    die_object = Die(face_list)
   
   
   
