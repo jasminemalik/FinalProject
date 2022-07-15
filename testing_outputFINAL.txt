@@ -1,0 +1,27 @@
+test_analyzer_combo (__main__.TestingClass)
+This method tests the combo method in the analyzer class. It returns a dataframe ... ok
+test_analyzer_face_counts (__main__.TestingClass)
+Tests the face_counts method in the Analyzer class. Tests for correct values, ... ok
+test_analyzer_init (__main__.TestingClass)
+This tests the Analyzer initializer method. If the game attribute ... ok
+test_analyzer_jackpot (__main__.TestingClass)
+This method tests the jackpot method in the analyzer class. Tests for the correct ... ok
+test_change_weight (__main__.TestingClass)
+This method tests the change_weight method on a die object. ... ok
+test_die (__main__.TestingClass)
+Creates a die object, tests the insertion of faces ... ok
+test_game_init (__main__.TestingClass)
+Tests the creation of a game object. ... ok
+test_play (__main__.TestingClass)
+Tests the play method in the game class. Ensures that a dataframe is outputed, ... ok
+test_roll (__main__.TestingClass)
+Tests the roll method in the die class, ensures ... ok
+test_show (__main__.TestingClass)
+This tests shows the show() metohd in the Game class. We test to make sure ... ok
+test_show_die (__main__.TestingClass)
+This method tests the show_die method. ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.022s
+
+OK
