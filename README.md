@@ -294,7 +294,13 @@ Do not describe private methods and attributes.
 ## Manifesto
 
 README.md
-LISCENSE
+LICENSE
+Collins Scrabble Words (2019).txt
+demo.py
+final-project-submission.ipynb
+setup.py
+test_file_sublime.py
+testing_outputFINAL.txt
 
 
 
